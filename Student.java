@@ -24,12 +24,12 @@ conn = DriverManager.getConnection("jdbc:mysql://localhost:3308/db1?" +
 		for(int j=1; j<=i; j++) { 
 			
 			System.out.print(rsmd.getColumnName(j)+"\t"); 
-			System.out.print(" "); 
+			System.out.print(""); 
 		} 
-System.out.println("");
+
 		// Print records
 		while(rs.next( ) ) {
-			System.out.println("");
+			System.out.println();
 			for(int j=1; j<=i; j++) 
 			{ 
 				System.out.print ( rs.getString( j)+"\t"); 
