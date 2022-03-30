@@ -4,4 +4,4 @@ CREATE TABLE `db1`.`student` (
   `department` VARCHAR(45) NULL,
   PRIMARY KEY (`id`));
   
-insert into student values(123456, "Braun", "Network");
+  insert into student values(207704, "Aisyah", "Software");
